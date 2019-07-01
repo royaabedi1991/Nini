@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Nini.activities.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:src="@drawable/logologo"
+        android:layout_marginTop="100dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/etPin"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:hint="لطفاکد ارسال شده را وارد کنید"
+        android:inputType="number"
+        android:maxLength="11"
+        android:textSize="20dp"
+        android:backgroundTint="@color/spb_default_color"/>
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_bottumn"
+        android:text="عضویت"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TVmasage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+
+        />
+
+
+</LinearLayout>
